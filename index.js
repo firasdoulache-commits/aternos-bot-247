@@ -9,7 +9,7 @@ app.listen(process.env.PORT || 3000);
 
 function createBot() {
     const bot = mineflayer.createBot({
-    host: 'barfish.aternos.host',
+    host: 'firasdo.aternos.me',
     port: 32401,
     username: 'DzBot_247',
     version: '1.21.1'
