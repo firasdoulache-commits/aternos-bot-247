@@ -9,10 +9,11 @@ app.listen(process.env.PORT || 3000);
 
 function createBot() {
     const bot = mineflayer.createBot({
-        host: 'firasdo.aternos.me', // !!! حط رابط السيرفر تاعك هنا !!!
-        username: 'DzBot_247',          // اسم البوت اللي يدخل في السيرفر
-        version: '1.21.1'               // !!! رجعها نفس نسخة السيرفر تاعك دوقا !!!
-    });
+    host: 'barfish.aternos.host',
+    port: 32401,
+    username: 'DzBot_247',
+    version: '1.21.1'
+  });
 
     bot.on('spawn', () => {
         console.log('طيارة! البوت دخل للسيرفر وراه واقف دوقا.');
